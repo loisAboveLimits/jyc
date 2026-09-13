@@ -1,0 +1,54 @@
+.blox-mega-bar-counter-number-inside * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-mega-bar-counter-number-inside{
+	font-family: inherit;
+	color:#000000;
+	font-size:17px;
+	line-height:22px;
+  	padding-bottom: 10px;
+}
+.blox-mega-bar-counter-number-inside .blox-bar-row{
+	padding:7px 0px;
+	position:relative;
+  	display: inline-block;
+	}
+.blox-mega-bar-counter-number-inside .blox-bar-title{
+    width: 100%;
+    text-align: center;
+  	padding: 5px;
+	} 
+.blox-mega-bar-counter-number-inside .blox-border-bar-percentage{
+    width: auto;
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+	}
+.blox-mega-bar-counter-number-inside .blox-bar-heading{
+	padding:10px 10px;
+	line-height: normal;
+	}
+.blox-mega-bar-counter-number-inside .blox-border-bar{
+	display:block;
+	width: 200px;
+    height: 300px;
+  	position: relative;
+ 	margin: 0 0 5px;
+	}
+.blox-mega-bar-counter-number-inside .blox-border-progress-bar{
+	height:0;
+	display:block;
+	width: 0;
+	-webkit-transition: width 0.5s ease;
+       -o-transition: width 0.5s ease;
+          transition: width 0.5s ease;
+  
+  	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	}
