@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 7.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-10 20:41:10+0000\n"
+"PO-Revision-Date: 2026-09-11 14:45:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,143 @@ msgstr "1"
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "3"
+
+#: wp-admin/user-edit.php:381
+msgid "Infinite Scrolling"
+msgstr "تمرير لانهائي"
+
+#. translators: Hidden accessibility text.
+#: wp-admin/site-health.php:176
+msgid "Show or hide extra menu items"
+msgstr "إظهار أو إخفاء عناصر القائمة الإضافية"
+
+#: wp-admin/post.php:120
+msgid "Draft created successfully."
+msgstr "تم إنشاء المسودة بنجاح."
+
+#: wp-admin/post.php:103
+msgid "Cannot create a draft post with empty title and content."
+msgstr "لا يمكن إنشاء مسودة مقالة بعنوان ومحتوى فارغين."
+
+#: wp-admin/options-reading.php:178
+msgid "Number of recent posts shown on archive pages"
+msgstr "عدد أحدث المقالات المعروضة في صفحات الأرشيف"
+
+#: wp-admin/options-privacy.php:86
+msgid "No Privacy Policy page is currently set."
+msgstr "لم يتم تعيين صفحة سياسة الخصوصية."
+
+#: wp-admin/options-privacy.php:83
+msgid "Privacy Policy page removed."
+msgstr "تمت إزالة صفحة سياسة الخصوصية."
+
+#: wp-admin/options-discussion.php:187
+msgid "(A common characteristic of comment spam is a large number of hyperlinks.)"
+msgstr "(من السمات الشائعة للرسائل المزعجة في التعليقات وجود عدد كبير من الروابط التشعبية.)"
+
+#: wp-admin/options-discussion.php:185
+msgid "Number of links to allow in a comment before holding for moderation:"
+msgstr "عدد الروابط المسموح بها في التعليق قبل إخضاعه للمراجعة:"
+
+#: wp-admin/options-connectors.php:31
+msgid "The Connectors screen requires JavaScript. Please enable JavaScript in your browser settings to manage your connectors."
+msgstr "تتطلب شاشة الموصلات تفعيل جافا سكربت يرجى تفعيل جافا سكربت في إعدادات المتصفح لإدارة الموصلات الخاصة بك."
+
+#: wp-admin/includes/template.php:1423 wp-admin/includes/template.php:1430
+msgid "Show or hide panel"
+msgstr "إظهار اللوحة أو إخفاؤها"
+
+#: wp-admin/includes/ms.php:997 wp-admin/users.php:434
+msgid "Select a user to attribute the content to."
+msgstr "حدد المستخدم الذي تريد إسناد المحتوى إليه."
+
+#: wp-admin/includes/ms.php:995 wp-admin/users.php:432
+msgid "Attribute all content to another user."
+msgstr "إسناد كل المحتوى إلى مستخدم آخر."
+
+#: wp-admin/includes/ms.php:977
+msgid "This user does not have any content."
+msgstr "لا يملك هذا المستخدم أي محتوى."
+
+#: wp-admin/includes/comment.php:118
+msgid "A comment cannot be a reply to one of its own replies."
+msgstr "لا يمكن للتعليق أن يكون ردًا لأحد ردوده."
+
+#: wp-admin/includes/comment.php:108
+msgid "Invalid parent comment."
+msgstr "تعليق أصلي غير صالح."
+
+#: wp-admin/includes/comment.php:92
+msgid "A comment cannot be a reply to itself."
+msgstr "لا يمكن للتعليق أن يكون ردًا على نفسه."
+
+#: wp-admin/includes/comment.php:88
+msgid "The comment parent cannot be changed because threaded comments are disabled."
+msgstr "لا يمكن تغيير التعليق الأصلي لأن خاصية التعليقات المتسلسلة معطلة."
+
+#. translators: Privacy policy tutorial.
+#: wp-admin/includes/class-wp-privacy-policy-content.php:612
+msgid "Where applicable, European data protection law requires personal data of individuals in the European Union or European Economic Area, and other personal data subject to that law, to be protected when transferred outside the European Union or European Economic Area. In addition to listing where the data is transferred, you should explain the legal basis and safeguards relied on for the transfer, such as an adequacy decision, Standard Contractual Clauses, or Binding Corporate Rules. You should also describe any supplementary measures used where relevant."
+msgstr "عند الاقتضاء، يفرض قانون حماية البيانات الأوروبي حماية البيانات الشخصية للأفراد الموجودين في الاتحاد الأوروبي أو المنطقة الاقتصادية الأوروبية -وغيرها من البيانات الشخصية الخاضعة لذلك القانون- عند نقلها إلى خارج الاتحاد الأوروبي أو المنطقة الاقتصادية الأوروبية. وبالإضافة إلى بيان الأماكن التي تُنقل إليها البيانات، ينبغي عليك توضيح الأساس القانوني والضمانات المعتمدة في عملية النقل، مثل قرار الملاءمة، أو البنود التعاقدية القياسية، أو القواعد المؤسسية الملزمة. كما ينبغي عليك وصف أي تدابير تكميلية مُطبَّقة في هذا الصدد."
+
+#. translators: %s: Parent post title.
+#: wp-admin/includes/class-wp-posts-list-table.php:1216
+#: wp-admin/includes/class-wp-posts-list-table.php:1222
+msgid "Child of %s"
+msgstr "عنصر فرعي لـ %s"
+
+#. translators: Number is a fixed value. This is default text when no items are
+#. found.
+#: wp-admin/includes/class-wp-list-table.php:1033
+msgid "0 items"
+msgstr "0 عناصر"
+
+#. translators: Hidden accessibility text.
+#: wp-admin/edit-form-comment.php:312 wp-admin/edit-form-comment.php:315
+msgid "Parent comment"
+msgstr "تعليق أصلي"
+
+#. translators: Hidden accessibility text.
+#: wp-admin/edit-form-comment.php:305
+msgid "Edit parent comment"
+msgstr "تعديل التعليق الأصلي"
+
+#: wp-admin/customize.php:278
+msgctxt "label for responsive previews group"
+msgid "Responsive Views"
+msgstr "طرق عرض متجاوبة"
+
+#: wp-admin/about.php:138
+msgid "Improved media handling"
+msgstr "تحسين التعامل مع الوسائط"
+
+#: wp-admin/about.php:122
+msgid "More ways to leave feedback."
+msgstr "طرق أخرى لتقديم الملاحظات."
+
+#: wp-admin/about.php:102
+msgid "One dedicated workflow for editing your images."
+msgstr "سير عمل واحد مخصص لتحرير صورك."
+
+#: wp-admin/about.php:100
+msgid "A new way to crop"
+msgstr "طريقة جديدة للقص"
+
+#: wp-admin/about.php:92
+msgid "Consistent navigation, from dashboard to editor."
+msgstr "تنقل متسق، من لوحة التحكم إلى المحرّر."
+
+#: wp-admin/about.php:72
+msgid "Style content your way, on every screen."
+msgstr "نسّق محتواك بطريقتك، بكل شاشة."
+
+#: wp-admin/about.php:70
+msgid "Apply responsive styles"
+msgstr "تطبيق أنماط متجاوبة"
+
+#: wp-admin/about.php:64
+msgid "WordPress 7.1 makes styling and collaborating easier. Style how all blocks look across screen sizes and how the Button block responds to hover, focus, and active states, all without writing custom CSS. A streamlined media editor brings cropping, rotation, and metadata editing together in one workflow. Notes now support rich text and @mentions, and the admin bar travels with you into every editor, so the tools you rely on stay with you wherever you&#8217;re working."
+msgstr "ووردبريس 7.1 يجعل من تخصيص المظهر والتعاون أسهل. يمكنك تخصيص مظهر جميع المكوّنات عبر مختلف أحجام الشاشات، وتحديد كيفية استجابة مكوّن الزر لحالات التمرير والتركيز والنشاط، وكل ذلك من دون كتابة CSS مخصّص. كما يوفّر محرّر الوسائط المحسّن سير عمل موحّدًا يجمع بين الاقتصاص والتدوير وتحرير البيانات الوصفية في مكان واحد. وتدعم الملاحظات الآن النص المنسّق والإشارات باستخدام @، بينما يظل شريط الإدارة متاحًا معك داخل كل محرّر، لتبقى الأدوات التي تعتمد عليها متاحة أينما كنت تعمل."
 
 #: wp-admin/customize.php:213 wp-admin/includes/class-custom-background.php:282
 #: wp-admin/includes/class-custom-image-header.php:553
@@ -623,7 +760,7 @@ msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/server
 msgid "https://developer.wordpress.org/advanced-administration/server/wordpress-in-directory/"
 msgstr "https://developer.wordpress.org/advanced-administration/server/wordpress-in-directory/"
 
-#: wp-admin/includes/ms.php:1216 wp-admin/network/site-new.php:32
+#: wp-admin/includes/ms.php:1217 wp-admin/network/site-new.php:32
 #: wp-admin/network/sites.php:44
 msgid "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-sites-screen\">Documentation on Site Management</a>"
 msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-sites-screen\">وثائق المساعدة لإدارة الموقع</a>"
@@ -685,6 +822,11 @@ msgstr "خيارات التحميل التلقائي مقبولة."
 #: wp-admin/includes/class-wp-site-health.php:2683
 msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
 msgstr "تعد خيارات التحميل التلقائي إعدادات تكوين للإضافات والقوالب التي يتم تحميلها تلقائيًا مع كل تحميل لصفحة في ووردبريس. قد يؤدي وجود عدد كبير جدًا من خيارات التحميل التلقائي إلى إبطاء موقعك."
+
+#. translators: Localized Support reference.
+#: wp-admin/includes/class-wp-site-health.php:2571
+msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#object-caching"
+msgstr "https://developer.wordpress.org/advanced-administration/performance/optimization/#object-caching"
 
 #: wp-admin/includes/class-wp-site-health.php:2462
 msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#caching"
@@ -4963,7 +5105,7 @@ msgid "Great job!"
 msgstr "عمل رائع!"
 
 #: wp-admin/about.php:53 wp-admin/contribute.php:31 wp-admin/credits.php:34
-#: wp-admin/freedoms.php:37 wp-admin/includes/ms.php:1178
+#: wp-admin/freedoms.php:37 wp-admin/includes/ms.php:1179
 #: wp-admin/nav-menus.php:813 wp-admin/options-privacy.php:171
 #: wp-admin/privacy-policy-guide.php:44 wp-admin/privacy.php:31
 #: wp-admin/site-health.php:141
@@ -7234,24 +7376,24 @@ msgstr "التنصيبات النشطة:"
 msgid "Plugin Installation"
 msgstr "تنصيب الإضافة"
 
-#: wp-admin/includes/ms.php:1203
+#: wp-admin/includes/ms.php:1204
 msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
 msgstr "<strong>إعدادات</strong> &mdash; هذه الصفحة تظهر لك قائمة بجميع الإعدادات المرتبطة بهذا الموقع. بعض هذه الإعدادات مصدرها من سكربت ووردبريس والبعض الآخر ربما يكون مصدرها من الإضافات التي قمت بتركيبها وتفعيلها. ستلاحظ أنّ بعض الحقول لونها رمادي وهي غير قابلة للتعديل، والسبب يعود إلى طريقة حفظ هذه البيانات في قاعدة البيانات."
 
 #. translators: %s: URL to Network Themes screen.
-#: wp-admin/includes/ms.php:1200
+#: wp-admin/includes/ms.php:1201
 msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
 msgstr "<strong>قوالب</strong> &mdash; هذه المنطقة تعرض لك قائمة القوالب غير المفعّلة عبر الشبكة. تفعيل قالب في هذه القائمة يتيح إمكانية الدخول إلى الموقع. لن يؤدي إلى مباشرةً إلى تفعيله، لكن سيجعل القالب يظهر ضمن قائمة القوالب المتاحة للاستخدام في الموقع. لتفعيل قالب وجعله متاحاً لكافة المواقع على الشبكة، شاهد صفحة <a href=\"%s\">قوالب الشبكة</a>."
 
-#: wp-admin/includes/ms.php:1197
+#: wp-admin/includes/ms.php:1198
 msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
 msgstr "<strong>أعضاء</strong> &mdash; هناك تظهر قائمة الأعضاء المرتبطين بهذا الموقع الذي تقوم بتحريره. تستطيع أن تغيّر رُتبة الأعضاء، ويمكنك أيضاً إعادة تعيين كلمة المرور الخاصة بهم، أو حذفهم من الموقع. حذف العضو من الموقع لا يؤدي إلى حذفه من الشبكة."
 
-#: wp-admin/includes/ms.php:1196
+#: wp-admin/includes/ms.php:1197
 msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
 msgstr "<strong>معلومة</strong> &mdash; نادراً ما يتم تعديل رابط النطاق والمسار لأنّ هذا الأمر قد يؤدي إلى حصول خلل في عمل الموقع. يظهر لديك أيضاً تاريخ تسجيل الموقع وآخر تحديث له. يستطيع مدراء الشبكة أن يعدّلوا على حالة الموقع وجعله: منشور، مؤرشف، مزعج، محذوف، وللبالغين، لإزالتها من القوائم العامة أو تعطيلها."
 
-#: wp-admin/includes/ms.php:1195
+#: wp-admin/includes/ms.php:1196
 msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
 msgstr "القائمة هي لتعديل المعلومات الخاصة بالمواقع الفردية، خصوصاً إذا كانت منطقة المدير لأحد المواقع غير متوفرة."
 
@@ -7774,25 +7916,13 @@ msgstr "هذا سيُبدل المحتوى الحالي في المُحرر بآ
 msgid "Close media attachment panel"
 msgstr "إغلاق لوحة المرفق"
 
-#: wp-admin/includes/ms.php:1112
+#: wp-admin/includes/ms.php:1113
 msgid "Info"
 msgstr "المعلومات"
 
 #: wp-admin/includes/meta-boxes.php:1083
 msgid "Need help? Use the Help tab above the screen title."
 msgstr "تحتاج لمساعدة؟ استخدم تبويب المساعدة الموجود فوق عنوان الشاشة."
-
-#: wp-admin/includes/menu.php:384 wp-admin/my-sites.php:17
-#: wp-admin/network/index.php:17 wp-admin/network/settings.php:17
-#: wp-admin/network/site-info.php:32 wp-admin/network/site-settings.php:32
-#: wp-admin/network/site-themes.php:57 wp-admin/network/site-users.php:50
-#: wp-admin/network/sites.php:14 wp-admin/network/sites.php:162
-#: wp-admin/network/upgrade.php:44 wp-admin/network/user-new.php:37
-#: wp-admin/network/users.php:14 wp-admin/network/users.php:24
-#: wp-admin/network/users.php:51 wp-admin/network/users.php:66
-#: wp-admin/network/users.php:189
-msgid "Sorry, you are not allowed to access this page."
-msgstr "عذرًا، غير مسموح لك الوصول إلى هذه الصفحة."
 
 #: wp-admin/includes/file.php:52
 msgid "Embed Footer Template"
@@ -7916,6 +8046,10 @@ msgstr "المقتطف هو ملخّص يدوي اختياري للمحتوى ي
 #: wp-admin/edit-form-advanced.php:288
 msgid "The Code mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Code editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
 msgstr "يسمح لك وضع الكود بإدراج أكواد HTML في محتوى المقالة. لاحظ بأن وسوم &lt;p&gt; و &lt;br&gt; يتم تحويلها تلقائيًا إلى فواصل أسطر عندما يتم التبديل إلى محرر شفرة برمجية، لجعل الأمر أقل تشويشًا عندما تكتب، فاصل سطر واحد يمكن استخدامه بدلاً عن كتابة وسم &lt;br&gt; وفاصلين للسطر يمكن استخدامهما بدلاً عن وسوم الفقرات. فواصل الأسطر يتم تحويلها إلى وسوم تلقائيًا."
+
+#: wp-admin/edit-form-advanced.php:287
+msgid "Visual mode gives you an editor that is similar to a word processor. Click the Extended Toolbar button to get a second row of controls."
+msgstr "الوضع المرئي يمنحك محررًا مشابهًا لمعالج النصوص. انقر على زر شريط الأدوات الممتد لتحصل على المزيد من أدوات التحرير."
 
 #: wp-admin/upload.php:117
 msgid "Error saving media file."
@@ -8627,15 +8761,15 @@ msgstr "تحذير"
 msgid "Warning:"
 msgstr "تحذير:"
 
-#: wp-admin/includes/ms.php:1037
+#: wp-admin/includes/ms.php:1038
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
 msgstr "بمُجرّد &#8220;تأكيد الحذف&#8221;، فإنّ هؤلاء الأعضاء سيتمّ حذفهم بشكلٍ دائم."
 
-#: wp-admin/includes/ms.php:1035
+#: wp-admin/includes/ms.php:1036
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, the user will be permanently removed."
 msgstr "بمُجرّد &#8220;تأكيد الحذف&#8221;، فإنّ هذا العضو سيتمّ حذفه بشكلٍ دائم."
 
-#: wp-admin/includes/ms.php:1020
+#: wp-admin/includes/ms.php:1021
 msgid "User has no sites or content and will be deleted."
 msgstr "العضو لا يملك مواقع أو محتوى وسيتم حذفه."
 
@@ -9775,7 +9909,7 @@ msgstr "تحرير حالة الظهور"
 msgid "Edit status"
 msgstr "تحرير الحالة"
 
-#: wp-admin/includes/ms.php:1217 wp-admin/network/index.php:57
+#: wp-admin/includes/ms.php:1218 wp-admin/network/index.php:57
 #: wp-admin/network/site-new.php:33 wp-admin/network/sites.php:45
 #: wp-admin/network/user-new.php:30 wp-admin/network/users.php:298
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support forums</a>"
@@ -9864,6 +9998,14 @@ msgstr "انقر أو أشّر على أي قالب ثم انقر على زر م
 #: wp-admin/themes.php:138
 msgid "The active theme is displayed highlighted as the first theme."
 msgstr "القالب الحالي يتم عرضه بشكل بارز كأول قالب."
+
+#: wp-admin/themes.php:135
+msgid "Click Customize for the active theme or Live Preview for any other theme to see a live preview."
+msgstr "انقر تخصيص للقالب الحالي أو معاينة لأي قالب آخر للمعاينة الحية له"
+
+#: wp-admin/themes.php:134
+msgid "Hover or tap to see Activate and Live Preview buttons."
+msgstr "أشّر أو انقر لرؤية أزرار التفعيل والمعاينة"
 
 #: wp-admin/themes.php:132
 msgid "This screen is used for managing your installed themes. Aside from the default theme(s) included with your WordPress installation, themes are designed and developed by third parties."
@@ -10610,6 +10752,14 @@ msgstr "إدارة مواضع القوائم"
 msgid "Edit Menus"
 msgstr "تحرير القوائم"
 
+#: wp-admin/nav-menus.php:761
+msgid "To edit a menu currently assigned to a theme menu location, <strong>click the adjacent &#8217;Edit&#8217; link</strong>"
+msgstr "لتحرير قائمة معينة حالياً لموقع في القالب، <strong>انقر فوق رابط \"تحرير\" المجاور لها</strong>"
+
+#: wp-admin/nav-menus.php:760
+msgid "To assign menus to one or more theme menu locations, <strong>select a menu from each location&#8217;s dropdown</strong>. When you are finished, <strong>click Save Changes</strong>"
+msgstr "لتعيين قوائم إلى واحد أو أكثر من المواضع في القالب، <strong>حدّد قائمة من كل موضع</strong>. عند الانتهاء، <strong>انقر فوق حفظ التغييرات</strong>"
+
 #: wp-admin/nav-menus.php:759
 msgid "This screen is used for globally assigning menus to locations defined by your theme."
 msgstr "يتم استخدام هذه الشاشة لتعيين قوائم في مواضع محدّدة في القالب الخاص بك."
@@ -10759,6 +10909,11 @@ msgstr "%s تولى التحرير ويقوم حاليًا بإجراء تغيي
 #: wp-admin/nav-menus.php:982
 msgid "Select a menu to edit:"
 msgstr "اختر قائمة لتحريرها:"
+
+#. translators: %s: URL to Upgrade Network screen.
+#: wp-admin/includes/ms.php:695
+msgid "Thank you for updating! Please visit the <a href=\"%s\">Upgrade Network</a> page to update all your sites."
+msgstr "شكرًا لك على التحديث! يرجى زيارة صفحة <a href=\"%s\">ترقية الشبكة</a> لتحديث كافة مواقعك."
 
 #: wp-admin/setup-config.php:509
 msgid "All right, sparky! You&#8217;ve made it through this part of the installation. WordPress can now communicate with your database. If you are ready, time now to&hellip;"
@@ -11984,6 +12139,10 @@ msgstr "<strong>تحرير</strong> سوف يأخذك لصفحة تحرير ال
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "كونك تستخدم نسخة المواقع المتعدّدة (Multi-Site)، تستطيع إذاً إضافة حسابات جديدة موجودة سابقاً على الشبكة وذلك عن طريق تحديد اسم المستخدم أو البريد الإلكتروني، ثمّ تحديد الدور. للمزيد من الخيارات، مثل تحديد كلمة المرور، يجب أن تكون لديك صلاحيات مدير الشبكة وحينها يمكنك التوجّه إلى (إدارة الشبكة > كافة الأعضاء) ومن ثمّ إجراء التعديلات التي تريدها."
 
+#: wp-admin/about.php:63
+msgid "Welcome to WordPress 7.1"
+msgstr "مرحبًا بك في ووردبريس 7.1"
+
 #: wp-admin/about.php:276
 msgid "Go to Dashboard &rarr; Home"
 msgstr "الانتقال إلى لوحة التحكم &larr; الرئيسية"
@@ -12142,7 +12301,7 @@ msgstr "إضافات %s"
 msgid "All Users"
 msgstr "كافة الأعضاء"
 
-#: wp-admin/includes/ms.php:1041 wp-admin/users.php:476
+#: wp-admin/includes/ms.php:1042 wp-admin/users.php:476
 msgid "Confirm Deletion"
 msgstr "تأكيد الحذف"
 
@@ -12237,7 +12396,7 @@ msgstr "تمّ حفظ الإعدادات."
 #: wp-admin/export.php:58 wp-admin/import.php:31
 #: wp-admin/includes/class-custom-background.php:109
 #: wp-admin/includes/class-custom-image-header.php:144
-#: wp-admin/includes/ms.php:1215 wp-admin/index.php:131
+#: wp-admin/includes/ms.php:1216 wp-admin/index.php:131
 #: wp-admin/link-manager.php:78 wp-admin/media-new.php:60
 #: wp-admin/my-sites.php:51 wp-admin/nav-menus.php:774
 #: wp-admin/options-discussion.php:31 wp-admin/options-general.php:59
