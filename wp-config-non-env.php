@@ -18,41 +18,24 @@
  * @package WordPress
  */
 
-$autoload = __DIR__ . '/vendor/autoload.php';
+// ** Database settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'jycdb' );
 
-if (file_exists($autoload)) {
-    require_once $autoload;
+/** Database username */
+define( 'DB_USER', 'adminuser' );
 
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-    $dotenv->safeLoad();
-}
+/** Database password */
+define( 'DB_PASSWORD', 'admin_003' );
 
-define('DB_NAME', $_ENV['DB_NAME'] ?? 'wordpress');
-define('DB_USER', $_ENV['DB_USER'] ?? 'wordpress');
-define('DB_PASSWORD', $_ENV['DB_PASSWORD'] ?? '');
-define('DB_HOST', $_ENV['DB_HOST'] ?? 'localhost');
+/** Database hostname */
+define( 'DB_HOST', 'localhost' );
 
-define('DB_CHARSET', 'utf8mb4');
-define('DB_COLLATE', '');
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8mb4' );
 
-// // ** Database settings - You can get this info from your web host ** //
-// /** The name of the database for WordPress */
-// define( 'DB_NAME', 'jycdb' );
-
-// /** Database username */
-// define( 'DB_USER', 'adminuser' );
-
-// /** Database password */
-// define( 'DB_PASSWORD', 'admin_003' );
-
-// /** Database hostname */
-// define( 'DB_HOST', 'localhost' );
-
-// /** Database charset to use in creating database tables. */
-// define( 'DB_CHARSET', 'utf8mb4' );
-
-// /** The database collate type. Don't change this if in doubt. */
-// define( 'DB_COLLATE', '' );
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
 
 /**#@+
  * Authentication unique keys and salts.
@@ -90,7 +73,6 @@ define( 'NONCE_SALT',       'l}TPt!BTR;GnJQnI9rSwnCG~c#T[%[`EN4_*QH90>GsJ|i8XY?h
  */
 $table_prefix = 'SERVMASK_PREFIX_';
 
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -104,20 +86,13 @@ $table_prefix = 'SERVMASK_PREFIX_';
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
 
-define('WP_HOME', $_ENV['WP_HOME'] ?? 'http://localhost');
-define('WP_SITEURL', $_ENV['WP_SITEURL'] ?? 'http://localhost');
-
-define('WP_DEBUG', filter_var($_ENV['WP_DEBUG'] ?? false, FILTER_VALIDATE_BOOLEAN));
-define('WP_DEBUG_LOG', filter_var($_ENV['WP_DEBUG_LOG'] ?? false, FILTER_VALIDATE_BOOLEAN));
-define('WP_DEBUG_DISPLAY', filter_var($_ENV['WP_DEBUG_DISPLAY'] ?? false, FILTER_VALIDATE_BOOLEAN));
-
-// define('WP_DEBUG', true);
-// define('WP_DEBUG_LOG', true);
-// define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-define('FS_METHOD', 'ssh2');
+define( 'FS_METHOD', 'ssh2' );
 define('WP_MEMORY_LIMIT', '512M');
 define('WP_MAX_MEMORY_LIMIT', '768M');
 
