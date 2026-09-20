@@ -89,3 +89,14 @@
 [2026-09-16T13:10:26+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/original-7198AAB1-0F3E-4902-83A4-2FD84CB5F3C0-1.png] is a PNG 32-bit.
 [2026-09-16T13:14:24+00:00] Setting transparent meta value
 [2026-09-16T13:14:24+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/processed-8577E41B-1F99-4276-94B8-680A8A9B96B0-1.png] is a PNG 32-bit.
+[2026-09-18T21:14:32+00:00] Error: Count not delete webp versions of the media item [3933]
+[2026-09-18T21:52:35+00:00] Setting transparent meta value
+[2026-09-18T21:52:35+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/berth.png] is a PNG 32-bit.
+[2026-09-18T22:01:33+00:00] Setting transparent meta value
+[2026-09-18T22:01:33+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/map-marina.png] is a PNG 32-bit.
+[2026-09-18T22:20:17+00:00] Setting transparent meta value
+[2026-09-18T22:20:17+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/rimvare.png] is a PNG 32-bit.
+[2026-09-18T22:27:20+00:00] Setting transparent meta value
+[2026-09-18T22:27:20+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/Yacht.png] is a PNG 32-bit.
+[2026-09-18T22:52:38+00:00] Setting transparent meta value
+[2026-09-18T22:52:38+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/academy101.png] is a PNG 32-bit.
