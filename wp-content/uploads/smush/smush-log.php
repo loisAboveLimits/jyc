@@ -102,3 +102,13 @@
 [2026-09-18T22:52:38+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/academy101.png] is a PNG 32-bit.
 [2026-09-20T09:50:04+00:00] Setting transparent meta value
 [2026-09-20T09:50:04+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/taxi-img.png] is a PNG 32-bit.
+[2026-09-21T12:55:21+00:00] Setting transparent meta value
+[2026-09-21T12:55:21+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/IMG_9757.JPG-1.png] is a PNG 32-bit.
+[2026-09-21T12:56:57+00:00] Setting transparent meta value
+[2026-09-21T12:56:57+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/IMG_9757.JPG-1-1.png] is a PNG 32-bit.
+[2026-09-21T12:57:59+00:00] Setting transparent meta value
+[2026-09-21T12:57:59+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/IMG_9757.JPG-1-1-1.png] is an PNG 8-bit.
+[2026-09-21T13:00:42+00:00] Setting transparent meta value
+[2026-09-21T13:00:42+00:00] Info: File [/var/www/html/wp-content/uploads/2026/09/IMG_9757.JPG-1-1-2.png] is an PNG 8-bit.
+[2026-09-21T13:16:15+00:00] Error: Tried to check transparent value but encountered a problem with the media item
+[2026-09-21T13:16:15+00:00] Error: Tried to check animated value but encountered an problem with the media item
