@@ -259,3 +259,18 @@ function elementor_shop_feature_shortcode( $atts, $content = null ) {
 }
 
 add_shortcode( 'shop_featured', 'elementor_shop_feature_shortcode' );
+
+// add_action( 'elementor/query/specific_post', function( $query ) {
+
+//     $query->set( 'post__in', [387] );
+//     $query->set( 'posts_per_page', 1 );
+
+// } );
+
+function restoSelectOne($args, $widgetData){
+
+    $args['post__in'] = array(387);
+    return $args;
+}
+
+add_filter("specific_post", "restoSelectOne",10,2);

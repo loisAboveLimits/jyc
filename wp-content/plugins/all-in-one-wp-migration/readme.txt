@@ -4,7 +4,7 @@ Tags: backup, clone, migrate, move-wordpress, export-import
 Requires at least: 3.3
 Tested up to: 7.1
 Requires PHP: 5.3
-Stable tag: 7.110
+Stable tag: 7.111
 License: GPLv3 or later
 
 Trusted by 60M+ sites: The gold standard for WordPress migration and backup. Migrate, backup, and restore your WordPress site with one click.
@@ -164,6 +164,20 @@ All-in-One WP Migration is in full compliance with General Data Protection Regul
 See our [GDPR Compliant Privacy Policy here](https://www.iubenda.com/privacy-policy/946881).
 
 == Changelog ==
+= 7.111 =
+
+**Security**
+
+* Export and import now require the administrator capability. This closes a missing-authorization issue that allowed authenticated users without administrator privileges to run migrations. Credits to Charles Vosburgh for reporting it
+* Backup actions (list, delete, label, browse, and download) are now restricted to users who can export or import
+* HTTP authentication credentials are no longer captured for users who lack permission to run a migration. Credits to Jakub Herman for reporting it
+* Backup list, archive browser, and downloads now fail closed with a clear error when the session has expired, instead of failing silently
+
+**Fixed**
+
+* Export REST route no longer accepts malformed find-and-replace pairs (previously ignored silently)
+* SQLite export no longer removes the substring STRICT from column names that contain it
+
 = 7.110 =
 **Fixed**
 

@@ -1985,7 +1985,7 @@ abstract class Ai1wm_Database {
 			'/`?ENCRYPTION_KEY_ID`?\s*=\s*\'?\w+\'?/i',
 			'/(WITH|WITHOUT)\s+SYSTEM\s+VERSIONING/i',
 			'/,?\s*WITHOUT\s+ROWID/i',
-			'/,?\s*STRICT/i',
+			'/,?\s*\bSTRICT\b(?=(?:\s*--[^\n]*)*\s*;?\s*$)/i',
 		);
 		$replace = array(
 			'ENGINE=$1',
