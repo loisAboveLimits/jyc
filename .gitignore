@@ -1,2 +1,15 @@
-wp-content/debug.log
+# WordPress logs
 *.log
+wp-content/debug.log
+
+# All-in-One WP Migration
+wp-content/ai1wm-backups/
+wp-content/plugins/all-in-one-wp-migration/storage/
+
+# Database / backups
+*.sql
+*.wpress
+*.zip
+
+# Environment/secrets
+.env
