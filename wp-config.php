@@ -119,7 +119,7 @@ define('WP_DEBUG_DISPLAY', filter_var($_ENV['WP_DEBUG_DISPLAY'] ?? false, FILTER
 
 define('FS_METHOD', 'ssh2');
 define('WP_MEMORY_LIMIT', '512M');
-define('WP_MAX_MEMORY_LIMIT', '768M');
+define('WP_MAX_MEMORY_LIMIT', '512M');
 
 /* That's all, stop editing! Happy publishing. */
 
