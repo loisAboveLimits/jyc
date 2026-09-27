@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//jycmarina.sa/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://jycmarina.sa/?uicore-tb=academy</loc>
+		<lastmod>2026-09-23T16:29:06+00:00</lastmod>
+		<image:image>
+			<image:loc>https://jycmarina.sa/wp-content/uploads/2024/02/jyclogo-white.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://jycmarina.sa/?uicore-tb=the-yacht-club</loc>
+		<lastmod>2026-09-20T05:08:05+00:00</lastmod>
+	</url>
+</urlset>

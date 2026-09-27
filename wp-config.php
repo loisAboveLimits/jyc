@@ -107,9 +107,16 @@ $table_prefix = 'SERVMASK_PREFIX_';
 define('WP_HOME', $_ENV['WP_HOME'] ?? 'http://localhost');
 define('WP_SITEURL', $_ENV['WP_SITEURL'] ?? 'http://localhost');
 
-define('WP_DEBUG', filter_var($_ENV['WP_DEBUG'] ?? false, FILTER_VALIDATE_BOOLEAN));
-define('WP_DEBUG_LOG', filter_var($_ENV['WP_DEBUG_LOG'] ?? false, FILTER_VALIDATE_BOOLEAN));
-define('WP_DEBUG_DISPLAY', filter_var($_ENV['WP_DEBUG_DISPLAY'] ?? false, FILTER_VALIDATE_BOOLEAN));
+// define('WP_DEBUG', filter_var($_ENV['WP_DEBUG'] ?? false, FILTER_VALIDATE_BOOLEAN));
+// define('WP_DEBUG_LOG', filter_var($_ENV['WP_DEBUG_LOG'] ?? false, FILTER_VALIDATE_BOOLEAN));
+// define('WP_DEBUG_DISPLAY', filter_var($_ENV['WP_DEBUG_DISPLAY'] ?? false, FILTER_VALIDATE_BOOLEAN));
+
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+define( 'SCRIPT_DEBUG', true );
+
+@ini_set( 'display_errors', 0 );
 
 // define('WP_DEBUG', true);
 // define('WP_DEBUG_LOG', true);
@@ -117,7 +124,17 @@ define('WP_DEBUG_DISPLAY', filter_var($_ENV['WP_DEBUG_DISPLAY'] ?? false, FILTER
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-define('FS_METHOD', 'ssh2');
+/*define('FS_METHOD', 'ssh2');*/
+define('FS_METHOD','direct');
+/*
+define('FTP_HOST', '127.0.0.1:22');
+define('FTP_USER', 'azureuser');
+define('FTP_PASS', 'Zzaaqq1100!1');
+
+define('FTP_BASE', '/var/www/html/');
+define('FTP_CONTENT_DIR', '/var/www/html/wp-content/');
+define('FTP_PLUGIN_DIR', '/var/www/html/wp-content/plugins/');
+*/
 define('WP_MEMORY_LIMIT', '512M');
 define('WP_MAX_MEMORY_LIMIT', '512M');
 
